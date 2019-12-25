@@ -1,0 +1,7 @@
+value: &data
+  name: "tj"
+  age: "26"
+
+value1:
+  <<: *data
+  add:  "昌平"

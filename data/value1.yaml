@@ -1,0 +1,45 @@
+#name: "jingjing"
+#Name: "jingjing"
+#
+#text: {"name":"jingjing"}
+#Text: zz
+
+#result:
+#  res: {"name":"zz"}
+#  rec: {"Name":"zz"}
+
+#value:  #文件数组格式  - 后面必须跟空格
+#  - 1
+#  - 2
+#
+#value1:   #支持多种嵌套
+#  - name: "哈哈"
+#  - value: "wc"
+
+#布尔类型
+#value0: true #支持bool数据类型
+#value6: false
+
+#value2: True
+#value3: False
+
+
+#整数/浮点数
+#value4:250
+#value5:2.5
+
+#空
+#value7: ~
+#value8:
+#value9: null
+#value10: Null
+#value11: None   Python数据不支持
+#value12: none   python数据不支持
+#value13: ""
+
+#日期
+#value14: 2019-12-25 12:12:12
+#value15: 2019-12-25
+#value16: 12:12:12  #返回整数
+#value17: 2019-12-25 02:02:01
+#value18: 2019-02-02
